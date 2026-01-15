@@ -16,3 +16,5 @@ I create assets, systems, and games with GameMaker; build software with Rust or 
 <p align="center">
   <a href="https://danielpancake.github.io"><code>danielpancake.github.io</code></a>
 </p>
+
+<br>
