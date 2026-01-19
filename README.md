@@ -1,4 +1,4 @@
-![profile-banner](assets/profile-banner.png)
+![profile-banner](assets/profile-banner.webp)
 
 <!-- This structure is heavily inspired by YellowAfterlife -->
 
