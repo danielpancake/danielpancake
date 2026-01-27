@@ -1,0 +1,20 @@
+<svg fill="none" viewBox="0 0 1634 572" width="1634" height="572" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="sky" patternUnits="userSpaceOnUse" width="1600" height="500">
+      <image href="sky.png" width="1600" height="500" preserveAspectRatio="xMidYMin meet" />
+    </pattern>
+  </defs>
+
+  <svg fill="none" viewBox="0 0 1600 500" width="1600" height="500" x="16" y="52" xmlns="http://www.w3.org/2000/svg">
+    <!-- Tiled sky - continuous loop -->
+    <rect fill="url(#sky)" width="3200" height="500">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-1600,0" dur="60s"
+        repeatCount="indefinite" />
+    </rect>
+
+    <!-- Hill -->
+    <image href="hill.png" width="1600" height="500" preserveAspectRatio="xMidYMax meet" />
+  </svg>
+
+  <image href="frame.png" />
+</svg>

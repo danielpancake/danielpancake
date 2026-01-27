@@ -1,0 +1,1 @@
+![](profile-animated-banner.svg)
