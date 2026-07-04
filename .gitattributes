@@ -1,2 +1,3 @@
 # ghmeta
 .githooks/pre-commit text eol=lf
+.githooks/pre-push text eol=lf

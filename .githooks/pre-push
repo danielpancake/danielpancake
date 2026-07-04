@@ -1,13 +1,13 @@
 #!/bin/sh
-# Run ghmeta's precommit validation (scaffolded by `ghmeta init`)
+# Run ghmeta's prepush validation (scaffolded by `ghmeta init`)
 set -e
 
 if command -v ghmeta >/dev/null 2>&1; then
-    exec ghmeta precommit
+    exec ghmeta prepush
 elif command -v python3 >/dev/null 2>&1 && python3 -c "import ghmeta" >/dev/null 2>&1; then
-    exec python3 -m ghmeta precommit
+    exec python3 -m ghmeta prepush
 elif command -v py >/dev/null 2>&1 && py -3 -c "import ghmeta" >/dev/null 2>&1; then
-    exec py -3 -m ghmeta precommit
+    exec py -3 -m ghmeta prepush
 else
     echo "ghmeta not found — install it: pip install git+https://github.com/danielpancake/ghmeta.git" >&2
     exit 1

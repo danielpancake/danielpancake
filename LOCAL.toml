@@ -1,3 +1,13 @@
+[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b794e7a6b344e6a59324d6a553d]
+name = "danielpancake"
+desc = ""
+tags = ["profile", "ghmeta"]
+
+[danielpancake.525f6b67444f51354f653377]
+name = "ghmeta"
+desc = ""
+tags = ["ghmeta"]
+
 [danielpancake.4d4445774f6c4a6c6347397a61585276636e6b794e7a41354f4459334e54593d]
 name = "danielpancake.github.io"
 desc = "Home of personal stuff to be shared publicly!"
@@ -27,11 +37,6 @@ tags = []
 name = ".gists"
 desc = "Automatically lists GitHub Gists. Updates every Monday"
 tags = ["gists", "github-actions"]
-
-[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b794e7a6b344e6a59324d6a553d]
-name = "danielpancake"
-desc = ""
-tags = ["profile"]
 
 [danielpancake.525f6b67444f517878626867]
 name = "shortcut-groups"
@@ -106,11 +111,6 @@ tags = []
 [danielpancake.525f6b67444f494d77764451]
 name = "haskell-euler-method"
 desc = "Implementation of the Euler method in Haskell for the Differential Equations course at Innopolis University"
-tags = []
-
-[danielpancake.525f6b67444f51354f653377]
-name = "ghmeta"
-desc = ""
 tags = []
 
 [gml-assets.525f6b67444f51784d795441]

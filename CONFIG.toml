@@ -11,6 +11,8 @@ max_repos = 300
 repos = "source"
 # Repository visibility: "all", "public", or "private"
 visibility = "public"
+# Repos to leave unmanaged, as "name" or "owner/name"
+exclude = []
 
 [paths]
 # Path to the local metadata file (the source of truth)
