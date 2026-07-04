@@ -1,0 +1,19 @@
+owners = [
+    # Put GitHub users and organizations here
+    "danielpancake",
+    "gml-assets"
+]
+
+[fetch]
+# Maximum number of repos to fetch per owner
+max_repos = 300
+# Which repos to fetch: "all", "fork", or "source"
+repos = "source"
+# Repository visibility: "all", "public", or "private"
+visibility = "public"
+
+[paths]
+# Path to the local metadata file (the source of truth)
+local = "LOCAL.toml"
+# Directory for temporary files
+cache = ".cache"

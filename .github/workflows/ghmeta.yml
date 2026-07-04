@@ -1,0 +1,46 @@
+name: ghmeta
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "LOCAL.toml"
+      - "CONFIG.toml"
+
+concurrency:
+  group: ghmeta-push
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  push-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install ghmeta
+        run: pip install "git+https://github.com/danielpancake/ghmeta.git"
+
+      - name: Push metadata to GitHub
+        # GHMETA_TOKEN must be a PAT that can administer your repositories —
+        # the default GITHUB_TOKEN can only touch this repository.
+        env:
+          GH_TOKEN: ${{ secrets.GHMETA_TOKEN }}
+        run: |
+          mkdir -p .cache
+          if git cat-file -e "${{ github.event.before }}:LOCAL.toml" 2>/dev/null; then
+            git show "${{ github.event.before }}:LOCAL.toml" > .cache/baseline.toml
+          else
+            : > .cache/baseline.toml
+          fi
+          ghmeta fetch
+          ghmeta diff --head .cache/baseline.toml
+          ghmeta push --strict

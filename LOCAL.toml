@@ -1,0 +1,129 @@
+[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b794e7a41354f4459334e54593d]
+name = "danielpancake.github.io"
+desc = "Home of personal stuff to be shared publicly!"
+tags = ["website", "personal-website", "porfolio-website", "hugo-site"]
+
+[danielpancake.525f6b67444f50526a497151]
+name = "cloud-frog-bot"
+desc = ""
+tags = []
+
+[danielpancake.525f6b67444f5348346c5067]
+name = "old-games-patches"
+desc = ""
+tags = []
+
+[danielpancake.525f6b67444f513230437a41]
+name = "zip-install"
+desc = "Small GUI for installing portable applications with automatic update detection"
+tags = []
+
+[danielpancake.525f6b67444f525736646967]
+name = "zip-mount"
+desc = ""
+tags = []
+
+[danielpancake.525f6b67444f513750644a51]
+name = ".gists"
+desc = "Automatically lists GitHub Gists. Updates every Monday"
+tags = ["gists", "github-actions"]
+
+[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b794e7a6b344e6a59324d6a553d]
+name = "danielpancake"
+desc = ""
+tags = ["profile"]
+
+[danielpancake.525f6b67444f517878626867]
+name = "shortcut-groups"
+desc = ""
+tags = []
+
+[danielpancake.525f6b67444f4b6a6b765277]
+name = "mlml"
+desc = "my little machine learning library written in NumPy"
+tags = ["machine-learning", "numpy"]
+
+[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b7a4d5467784e7a51784d7a553d]
+name = "gnome-flags-layout"
+desc = "Replaces country name layout labels with flag emoji in GNOME desktop environment"
+tags = ["gnome", "linux"]
+
+[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b7a4d5463304f5467344f44593d]
+name = "gmdialogue"
+desc = "gmdialogue - a dialogue system for GameMaker 2.3+ that utilizes command blocks to manipulate displayed text"
+tags = ["gamemaker-studio-2", "gamemaker-studio", "dialogue-systems"]
+
+[danielpancake.525f6b67444f4c516c377877]
+name = "nlp-assignments"
+desc = ""
+tags = []
+
+[danielpancake.525f6b67444f4b496a335641]
+name = "ai-galileo"
+desc = "AI-Galileo is an interactive chatbot that produces voiced episode scripts for the show in the style of Galileo."
+tags = []
+
+[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b794e7a49354d7a41324f54493d]
+name = "tedxyouth-agiouandreou"
+desc = "Website for the TEDxYouth event in Limassol"
+tags = []
+
+[danielpancake.525f6b67444f4b6849486567]
+name = "text-detox"
+desc = "Experimenting with text style transfer task"
+tags = []
+
+[danielpancake.525f6b67444f4b4431304451]
+name = "existence-uniqueness-for-cauchy-problem-theory"
+desc = "Covers basics of metric spaces, normed spaces, pointwise / uniform convergence, the Banach Fixed Point Theorem and its application in the Picard-Lindelöf Theorem for existence and uniqueness of solutions to IVPs for ODEs"
+tags = ["presentation-slides"]
+
+[danielpancake.525f6b67444f48645f5f3751]
+name = "haskell-outrun"
+desc = "OutRun-like racing demo made in Haskell"
+tags = ["game", "haskell", "outrun", "pseudo3d"]
+
+[danielpancake.4d4445774f6c4a6c6347397a61585276636e6b7a4d7a59344d4441324e6a553d]
+name = "string_to_array"
+desc = "An efficient method for converting GameMaker strings into character arrays. It implements a UTF-8 encoder for reading from the buffer."
+tags = []
+
+[danielpancake.525f6b67444f4a6253416a67]
+name = "mushroomarizer"
+desc = "Silly tool for making a mushroom garden on your desktop"
+tags = []
+
+[danielpancake.525f6b67444f493635615951]
+name = "databases-course"
+desc = "Assignments for the Databases course at Innopolis University"
+tags = []
+
+[danielpancake.525f6b67444f483755316767]
+name = "opersys-course"
+desc = "Assignments for the Operating Systems course at Innopolis University"
+tags = []
+
+[danielpancake.525f6b67444f494d77764451]
+name = "haskell-euler-method"
+desc = "Implementation of the Euler method in Haskell for the Differential Equations course at Innopolis University"
+tags = []
+
+[gml-assets.525f6b67444f51784d795441]
+name = "gml-ui"
+desc = "Small UI library aimed to use styles and layered render  "
+tags = []
+
+[gml-assets.525f6b67444f4d646c4e6b51]
+name = "gml-basement"
+desc = "A collection of essential gamemaker functions, methods and tricks"
+tags = []
+
+[gml-assets.525f6b67444f4e4333356a77]
+name = "gml-sequence-plan"
+desc = "A small script that organizes sequences of function calls"
+tags = []
+
+[gml-assets.525f6b67444f4c6c614b7251]
+name = "gml-voronoi"
+desc = ""
+tags = ["delaunay-triangulation", "procedural-generation", "voronoi-diagram"]

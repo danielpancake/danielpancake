@@ -1,0 +1,14 @@
+#!/bin/sh
+# Validate repo metadata before committing (scaffolded by `ghmeta init`)
+set -e
+
+if command -v ghmeta >/dev/null 2>&1; then
+    exec ghmeta precommit
+elif command -v python3 >/dev/null 2>&1 && python3 -c "import ghmeta" >/dev/null 2>&1; then
+    exec python3 -m ghmeta precommit
+elif command -v py >/dev/null 2>&1 && py -3 -c "import ghmeta" >/dev/null 2>&1; then
+    exec py -3 -m ghmeta precommit
+else
+    echo "ghmeta not found — install it: pip install git+https://github.com/danielpancake/ghmeta.git" >&2
+    exit 1
+fi
