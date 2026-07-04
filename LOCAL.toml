@@ -116,7 +116,7 @@ tags = []
 [gml-assets.525f6b67444f51784d795441]
 name = "gml-ui"
 desc = "Small UI library for GameMaker focused on styles and layered rendering"
-tags = ["gamemaker", "gml"]
+tags = ["gamemaker", "gml", "ui"]
 
 [gml-assets.525f6b67444f4d646c4e6b51]
 name = "gml-basement"
@@ -131,10 +131,4 @@ tags = ["gamemaker", "gml"]
 [gml-assets.525f6b67444f4c6c614b7251]
 name = "gml-voronoi"
 desc = "Voronoi diagram and Delaunay triangulation implementation for GameMaker"
-tags = [
-    "gamemaker",
-    "gml",
-    "voronoi",
-    "delaunay-triangulation",
-    "procedural-generation"
-]
+tags = ["gamemaker", "gml", "voronoi", "delaunay-triangulation", "procedural-generation"]
