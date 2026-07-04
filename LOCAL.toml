@@ -108,6 +108,11 @@ name = "haskell-euler-method"
 desc = "Implementation of the Euler method in Haskell for the Differential Equations course at Innopolis University"
 tags = []
 
+[danielpancake.525f6b67444f51354f653377]
+name = "ghmeta"
+desc = ""
+tags = []
+
 [gml-assets.525f6b67444f51784d795441]
 name = "gml-ui"
 desc = "Small UI library aimed to use styles and layered render  "
