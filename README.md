@@ -8,8 +8,10 @@ I create assets, systems, and games with GameMaker; build software with Rust or 
 
 - [GameMaker Things](https://github.com/gml-assets)  
   Collection of GameMaker tools, libraries, and assets
+<!-- not yet
 - [Games](https://github.com/danielpancake-games)  
   Some of my open-sourced actual games
+  -->
 
 <sup>Other repos are [`here`](https://github.com/danielpancake?tab=repositories) but have yet to be categorized...</sup>
 
